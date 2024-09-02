@@ -62,7 +62,7 @@ def main():
     print(f"Using device: {device}")
 
     # Set up the dataset and dataloader
-    dataset = ImageDataset(r'D:\AllDatasets\ChuckTesla\Resized')
+    dataset = ImageDataset(r'Resized')
     dataloader = DataLoader(dataset, batch_size=4, shuffle=False)  # Reduced batch size
 
     # Load pre-trained Faster R-CNN model
