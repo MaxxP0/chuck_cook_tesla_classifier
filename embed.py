@@ -36,7 +36,7 @@ class ImageDataset(Dataset):
         return image, label
 
 
-dataset = ImageDataset(r'D:\AllDatasets\ChuckTesla\Resized')
+dataset = ImageDataset(r'extracted_cars')
 dataset = DataLoader(dataset, batch_size=8, shuffle=False)
 
 
